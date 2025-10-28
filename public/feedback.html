@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - MINI MIRACLES</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" width="50px" height="50px" id="logo">
+        <h1>MINI MIRACLES</h1>
+        <h4>REHABILITATION CENTER</h4>
+        <p>Opening Hours: 9AM TO 5PM</p>
+        <p><i class="fas fa-phone"></i> Call: +91 6304641297</p>
+        <div class="social-media-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        &nbsp;
+        <div>
+            <button id="appointment-button">
+                <a href="index.html#appointment">👩🏻‍⚕Appointment</a>
+            </button>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="team.html"><i class="fas fa-users"></i> Team</a></li>
+                <li><a href="videos.html"><i class="fas fa-video"></i> Videos</a></li>
+                <li><a href="contact.html"><i class="fas fa-address-book"></i> Contact</a></li>
+                <li><a href="feedback.html"><i class="fas fa-comment-dots"></i> Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="feedback-form">
+        <h2>Feedback</h2>
+        <form id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Feedback:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="feedback">
+        <h2>What Our Clients Say</h2>
+
+        <div class="review">
+            <div class="review-info">
+                <h3>Sree Ram</h3>
+            </div>
+            <div class="review-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p class="review-text">"I am highly satisfied with the support and guidance provided by the team. Their dedication to early intervention is unmatched!"</p>
+        </div>
+      
+        <div class="review">
+            <div class="review-info">
+                <h3>Sravani</h3>                
+            </div>
+            <div class="review-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p class="review-text">"A wonderful experience! The therapy sessions have made a significant impact on my clients' progress. Highly recommend!"</p>
+        </div>
+    </section>
+
+    <section id="maps">
+        <h2>🗺Our Location</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.656621354943!2d78.3793697!3d17.4876504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb931a767d1b89%3A0xd32c39ff70876be5!2sMINI%20MIRACLES%20CHILD%20DEVELOPMENT%20CENTER!5e1!3m2!1sen!2sin!4v1735208609524!5m2!1sen!2sin" 
+            width="1200" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+    <footer>
+        <h2>Contact Us</h2>
+        <p><i class="fas fa-envelope"></i> Email: Contact@minimiracles.com</p>
+        <p><i class="fas fa-phone"></i> Phone: +91 6304641297</p>
+        <p><i class="fas fa-map-marker-alt"></i> Address: 2nd floor, Gokul plots, Plot 512, above Winning Edge School, 9th Phase, Venkata Ramana nagar, K P H B Phase 9, Hafeezpet, Hyderabad, Telangana 500085</p>
+        <p>© Copyright 2024 Mini Miracles</p>
+    </footer>
+    <script src="js/formHandler.js"></script>
+</body>
+</html>
